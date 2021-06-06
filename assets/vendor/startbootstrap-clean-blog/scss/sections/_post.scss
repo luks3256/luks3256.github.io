@@ -10,6 +10,7 @@
         }
 
         >.post-title {
+            text-shadow: 2px 2px #a1a1a1;
             font-size: 30px;
             margin-top: 30px;
             margin-bottom: 10px;
@@ -45,5 +46,33 @@
                 font-size: 36px;
             }
         }
+    }
+}
+
+iframe {
+    margin: 0 auto;
+    display: block;
+    border-style:none;
+}
+    >img{
+        //width: 100%;
+    }
+.text-center{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.item-boarder{
+    margin: -10px;
+    //background: linear-gradient(90deg, #ADA996 0%, #F2F2F2 35%, #EAEAEA 100%);
+    box-shadow: 5px 10px #888888;
+    margin-left:-10px;
+    border-style: solid;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.game-title{
+        >h1{
+        text-shadow: 2px 2px #a1a1a1;
     }
 }
